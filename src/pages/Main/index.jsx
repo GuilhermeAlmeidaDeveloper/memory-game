@@ -10,6 +10,7 @@ function Main() {
   const [card, setCard] = useState(cards);
 
   function handleshuffleCards() {
+    //function de embaralhar
     let localCard = [...card];
 
     const shuffledCards = localCard.sort(() => Math.random() - 0.5);
